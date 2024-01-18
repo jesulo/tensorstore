@@ -468,7 +468,7 @@ def get_bazel_path():
     # TODO: Support other forks just like Go version
     bazel_directory = os.path.join(bazelisk_directory, "downloads", BAZEL_UPSTREAM)
     #return download_bazel_into_directory(bazel_version, is_commit, bazel_directory)
-     return "/builder/whisper-jax/bazel/Bazel"
+    return "/builder/whisper-jax/bazel/Bazel"
 
 def main(argv=None):
     if argv is None:
